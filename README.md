@@ -45,4 +45,4 @@ This Project is deployed on Github.
 </ul>
 
 <h2> Acknowledgements </h2>
-<p>The Alert code, Button code, Modal code, and Carousel code are from Bootstrap.</p>
+<p>The Alert code, Button code, Modal code, and Carousel code are all from Bootstrap.</p>

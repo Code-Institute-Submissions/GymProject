@@ -31,7 +31,7 @@ As a potential gym member I expect to see reasons I should join this gym</p>
 </ul>
 
 <h2>Deployment</h2>
-This Project is deployed on Github.
+This Project is deployed on Github pages.
 
 
 <h2>Credits</h2>

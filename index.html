@@ -30,7 +30,7 @@
 
 
 <!-- Navbar -->
-	<nav class="navbar navbar-dark navbar-expand-ml fixed-top">
+	<nav class="navbar navbar-dark bg-dark navbar-expand-ml">
 		<a href="/" class="navbar-brand">Rachelle Fitness</a>
 <!-- Button code from Bootstrap -->
 		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,19 +75,26 @@
 					</div>
 					<div class="modal-body">
 						<form>
+                        <div class="form-group">
+								<label for="name">Full Name</label>
+								<input type="name" class="form-control" id="name" placeholder="Full Name">
+                                </div>
 							<div class="form-group">
-								<label for="exampleInputEmail1">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+								<label for="exampleInputEmail1">Email Address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                                <small id="dateofbirthsmall" class="form-text text-muted">Confirmation will be sent to your email</small>
 							</div>
+                            <div class="form-group">
+									<label for="repeatpassword">Date of Birth</label>
+									<input type="dateofbirth" class="form-control" id="dateofbirth" placeholder="Date of Birth">
+                                   
+                                </div>
 							<div class="form-group">
-								<label for="password">Password</label>
-								<input type="password" class="form-control" id="password" placeholder="Password">
+								<label for="password">Phone Number</label>
+								<input type="password" class="form-control" id="password" placeholder="Phone Number">
+                                <small id="phonesmall" class="form-text text-muted">We'll never share your information with anyone else</small>
                                 </div>
-								<div class="form-group">
-									<label for="repeatpassword">Repeat Password</label>
-									<input type="password" class="form-control" id="repeatpassword" placeholder="Repeat Password">
-                                </div>
+								
 									<button type="submit" class="btn btn-success">Submit</button>
 						</form>
 					</div>
@@ -105,7 +112,7 @@
 							<p>Whether you’re a beginner or a pro, everyone is welcomed and respected at
 								Rachelle Fitness. Our focus is getting you the results you want. You will love our vast
 								collection gym equipment, and our skilled trainers who are more than happy to help. We
-								also have a variety of memberships and classes available, all customisable to each
+								also have a variety of memberships and classes available, all customizable to each
 								individuals needs and goals.</p>
 						</div>
 					</div>
@@ -132,7 +139,7 @@ It’s fitness made fun with our exciting variety of classes available to our me
 									<p>
 										We value our customers, that's why at Rachelle Fitness we have a
 						rewards club for all members. Each month €1 will be added to your rewards card,
-						which can be be redeemed against memberships at anytime. Join today and start
+						which can be redeemed against memberships at anytime. Join today and start
 						enjoying all the benefits of the rewards club. Reward cards can be picked up at
 						reception.
 									</p>
@@ -141,6 +148,45 @@ It’s fitness made fun with our exciting variety of classes available to our me
 			</div>
         </div>
         </div>
+<!-- /.classes and member rewards -->
+
+<!-- Classes and Member Rewards -->
+        <section class="memberships my-5">
+        <h2>Memberships</h2>
+        <div class="row">
+        <div class="col-12 col-md-4 my-5">
+        <img src="gym23.jpg" class="rounded-circle mr-3" height="100" width="100">
+								<div class="members">
+                                <h3>Student</h3>
+									<p>
+										15% off membership prices <br>
+                                       <p class="text-muted"><small> Student card needed for purchase </small></p>
+									</p>
+								</div>		
+        </div>
+
+        
+        <div class="col-12 col-md-4 my-5">
+         <img src="gym11.jpg" class="rounded-circle mr-3" height="100" width="100">
+								<div class="members">
+                                <h3>3 Months</h3>
+									<p>
+			                        €120
+									</p>
+								</div>		
+        </div>
+        <div class="col-12 col-md-4 my-5">
+         <img src="gym2.jpg" class="rounded-circle mr-3" height="100" width="100">
+								<div class="members">
+                                <h3>12 Months</h3>
+									<p>
+										€420
+									</p>
+								</div>		
+        </div>
+								</div>						
+				</section>
+
 <!-- /.classes and member rewards -->
 
 <!-- Image -->
@@ -155,7 +201,7 @@ It’s fitness made fun with our exciting variety of classes available to our me
 						</ol>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="gym2.jpg" class="d-block w-100" alt="gympic">
+								<img src="gym5.jpg" class="d-block w-100" alt="gympic">
     </div>
 								<div class="carousel-item">
 									<img src="gym3.jpg" class="d-block w-100" alt="...gympic">
@@ -188,10 +234,10 @@ It’s fitness made fun with our exciting variety of classes available to our me
         <div class="col-12 col-md-6 page-header">
 									
 									<h3 id="contact" class="sub-heading">Contact Us</h3>
-						<p><i class="fa fa-phone"></i>  555-675-4848</p>
-						<p><i class="fa fa-envelope-square"></i>  Rachellefitness@fitness.com</p>
-						<p><i class="fas fa-location-arrow"></i>  Riverdale South. Dublin.</p>
-                        <p>We are open weekdays 6.30am - 11pm and weekends 8am-9pm</p>
+						<i class="fa fa-envelope-square"></i> <a href="mailto:Rachellefitness@outlook.com">Rachellefitness@outlook.com</a> <br>
+						<i class="fa fa-envelope-square"></i> <a href="tel:055-786-5789">055-786-5789</a> <br>
+						<i class="fas fa-location-arrow"></i> <a href="https://www.google.com/maps/search/South+Circular+Road,+Dublin+8/@53.3338214,-6.289988,15z/data=!3m1!4b1"> South Circular Road, Dublin.</a>
+                        <p>We are open weekdays 6.30am - 11pm<br> and weekends/bank holidays 8am-9pm</p>
 								</div>
 
 
@@ -205,42 +251,6 @@ It’s fitness made fun with our exciting variety of classes available to our me
         </div>
         </div>
 <!-- .footer -->
-
-
-<!--Modal code from Bootstrap-->
-	<div class="modal fade" id="joinmodal" data-backdrop="static" tabindex="-1" role="dialog"
-		aria-labelledby="staticBackdropLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="staticBackdropLabel">Join Rachelle Fitness</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-				</div>
-				<div class="modal-body">
-					<form>
-						<div class="form-group">
-							<label for="exampleInputEmail1">Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-						</div>
-						<div class="form-group">
-							<label for="password">Password</label>
-							<input type="password" class="form-control" id="password" placeholder="Password">
-                                </div>
-							<div class="form-group">
-								<label for="repeatpassword">Repeat Password</label>
-								<input type="password" class="form-control" id="repeatpassword" placeholder="Repeat Password">
-                                </div>
-								<button type="submit" class="btn btn-success">Submit</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-<!-- ./modal code from Bootstrap-->
-
 
 			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 				integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
